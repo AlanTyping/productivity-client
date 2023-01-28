@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+@media (max-width: 500px) {
+  .boton {
+    margin-right: 15px;
+  }
+  .title {
+    padding-left: 0px;
+  }
+  .nav {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 1800px) {
+  .card {
+    height: 40px;
+    width: 90%;
+  }
+}
